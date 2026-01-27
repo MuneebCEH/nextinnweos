@@ -1326,7 +1326,7 @@
       }
 
       .h-sec8 .boxes {
-        background-image: url('images/bg-img-3.png');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/bg-img-3.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1334,6 +1334,8 @@
         border-radius: 17px;
         padding-bottom: 16px;
         min-height: 351px;
+        position: relative;
+        /* Added just in case */
       }
 
       /* Utility Class */
