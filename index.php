@@ -344,15 +344,15 @@
     <div class="row h-sc2">
       <div class="col-lg-2"></div>
       <div class="col-lg-10 h-sec2 p-b-70">
-        <h1 class="text-center-m margin-top">Amplify Your Brand with</h1>
-        <h1 class="text-center-m">Cutting-Edge Digital </h1>
-        <h1 class="text-center-m">Marketing</h1>
+        <h1 class="text-center-m margin-top">Amplify Your Growth with</h1>
+        <h1 class="text-center-m">Next-Gen AI & Digital </h1>
+        <h1 class="text-center-m">Solutions</h1>
 
         <div class="row">
           <div class="col-lg-4"></div>
           <div class="col-lg-8">
-            <p class="p1 mmt70">Marko empowers businesses to grow online with data driven digital marketing, innovative
-              branding, and performance focused strategies trusted by top brands lorem ipsum dolor sit amet consectetur.
+            <p class="p1 mmt70">Nextinn empowers businesses to lead the future with data-driven AI innovation, smart
+              automation, and high-performance strategies tailored for excellence in the digital era.
             </p>
           </div>
         </div>
@@ -617,8 +617,9 @@
               </div>
 
               <p class="detail-paragraph text-center-m">
-                At Marko, we specialize in crafting innovative digital marketing strategies that drive real business
-                growth. Our expertise ensures your brand stays ahead in the competitive digital landscape.
+                At Nextinn, we specialize in crafting innovative AI-driven strategies that drive real business growth.
+                Our expertise in artificial intelligence and automation ensures your brand stays ahead in a rapidly
+                evolving landscape.
               </p>
 
               <div class="row">
@@ -708,9 +709,8 @@
                 <h1 class="main-headings text-center-m">Top Brands</h1>
               </div>
               <div class="col-lg-6">
-                <p class="text text-center-m">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ex ligula,
-                  varius at rutrum et, finibus sed felis. Quisque eget tincidunt lectus. Sed quis diam sed neque mattis
-                  feugiat.</p>
+                <p class="text text-center-m">Transforming industries through intelligent automation and data precision.
+                  Nextinn partner with global leaders to deliver scalable AI architectures that redefine efficiency.</p>
               </div>
             </div>
             <div class="row buttons-r">
@@ -837,9 +837,9 @@
                     </div>
                   </div>
                   <div class="col-lg-9">
-                    <h1>Data Driven Approach</h1>
-                    <h3>Every decision is backed by real-time analytics for maximum impact lorem ipsum dolor sit
-                      consectetur adipiscing elit ut elit tellus luctus nec.</h3>
+                    <h1>AI-Powered Analytics</h1>
+                    <h3>Unlock deep insights with our predictive models and real-time data processing for informed
+                      business decisions.</h3>
                     <div class="in-bl">
                       <p>Read More</p>
                     </div>
@@ -855,9 +855,9 @@
                     </div>
                   </div>
                   <div class="col-lg-9">
-                    <h1>Creative and Innovative</h1>
-                    <h3>Cutting-edge marketing techniques to keep you ahead of the competition lorem ipsum dolor sit
-                      awsа consectetur adipiscing elit ut elit.</h3>
+                    <h1>Intelligent Automation</h1>
+                    <h3>Streamline your operations with custom AI workflows that reduce manual overhead and boost
+                      productivity.</h3>
                     <div class="in-bl">
                       <p>Read More</p>
                     </div>
@@ -873,9 +873,9 @@
                     </div>
                   </div>
                   <div class="col-lg-9">
-                    <h1>Transparent Reporting</h1>
-                    <h3>Clear insights and performance tracking, so you always know your ROI lorem ipsum dolo
-                      consectetur adipiscing elit ut elit tellus luctus nec.</h3>
+                    <h1>Strategic AI Consulting</h1>
+                    <h3>Bespoke AI roadmaps designed to solve complex challenges and maintain your competitive
+                      advantage.</h3>
                     <div class="in-bl">
                       <p>Read More</p>
                     </div>
@@ -895,8 +895,8 @@
                   <h1 class="">Mission</h1>
                 </div>
                 <p class="detail-paragraph mmt70">
-                  In the fast-paced digital world, choosing the right marketing partner makes all the difference. At
-                  Marko, we don't just create campaigns—we craft strategies that deliver measurable success.
+                  In a world driven by data, the right AI partner is your bridge to the future. At Nextinn, we don't
+                  just build models—we engineer intelligent ecosystems that empower your growth.
                 </p>
 
                 <div
@@ -1446,7 +1446,7 @@
                   <h1>AI Chatbot Development</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Scale your business with intelligent conversational agents designed for seamless customer engagement.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1469,7 +1469,7 @@
                   <h1>ChatGPT Integration</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Leverage advanced LLMs to automate complex tasks and provide personalized user experiences.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1492,7 +1492,7 @@
                   <h1>Machine & Deep Learning</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Turn your raw data into actionable intelligence with custom-trained neutral networks.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1515,7 +1515,7 @@
                   <h1>Predictive Modeling</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Anticipate market shifts and customer behavior with our high-accuracy predictive intelligence.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1538,7 +1538,7 @@
                   <h1>Custom Software Development</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Build robust, AI-integrated software solutions tailored to your unique business logic and scale.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1561,7 +1561,7 @@
                   <h1>UI/UX</h1>
                 </div>
                 <h3>
-                  Build brand awareness & engage your audience effectively lorem ipsum dolor sit amet consectetur adip.
+                  Design intuitive, AI-enhanced interfaces that prioritize user journey and seamless interaction.
                 </h3>
                 <div class="view-details-d">
                   <div class="text-d">
@@ -1575,8 +1575,8 @@
             </div>
           </div>
           <div class="row custom-solution-d">
-            <p class="text-center">Need a custom solution? Let's create strategy tailored for your business. <span
-                style="color: var(--clr3);">Get a Free Strategy Call</span></p>
+            <p class="text-center">Need a custom AI solution? Let's create a strategy tailored for your business. <span
+                style="color: var(--clr3);">Get a Free AI Strategy Call</span></p>
           </div>
         </div>
       </div>
@@ -1683,8 +1683,8 @@
                 </div>
               </div>
               <div class="col-lg-6 detail">
-                <h3>We don't just talk about results—we deliver them. Here are some of our most impactful case studies
-                  showcasing how our digital marketing strategies drive success.</h3>
+                <h3>We don't just talk about innovation—we build it. Here are some of our most impactful case studies
+                  showcasing how our AI development strategies drive enterprise success.</h3>
                 <div class="in-bl" style="margin-top: 11px;">
                   <p>More Case Studies</p>
                 </div>
@@ -1701,10 +1701,10 @@
                     <div class="col-lg-6">
                       <div style="display: inline-block; margin-left: 82px;">
                         <div class="buttons in-bl">
-                          <p>Social</p>
+                          <p>Neural Nets</p>
                         </div>
                         <div class="buttons in-bl ml20">
-                          <p>Influencer</p>
+                          <p>Big Data</p>
                         </div>
                       </div>
                     </div>
@@ -1714,10 +1714,10 @@
                     <div class="col-lg-6">
                       <div style="display: inline-block; margin-left: 57px;">
                         <div class="buttons in-bl">
-                          <p>Retargeting</p>
+                          <p>NLP</p>
                         </div>
                         <div class="buttons in-bl ml20">
-                          <p>Google</p>
+                          <p>PyTorch</p>
                         </div>
                       </div>
                     </div>
@@ -1726,18 +1726,18 @@
                     <div class="col-lg-6"></div>
                     <div class="col-lg-6">
                       <div class="buttons in-bl">
-                        <p>Video</p>
+                        <p>TensorFlow</p>
                       </div>
                       <div class="buttons in-bl ml20">
-                        <p>Local</p>
+                        <p>Cloud</p>
                       </div>
                       <div class="buttons in-bl ml20">
-                        <p>Community</p>
+                        <p>Edge AI</p>
                       </div>
                     </div>
                   </div>
-                  <h1>Local Business Digital Transformation</h1>
-                  <h3>5× ROI on social media campaigns & 80% increase in engagement…</h3>
+                  <h1>Enterprise AI Transformation</h1>
+                  <h3>5× Efficiency boost & 80% reduction in manual data processing…</h3>
                 </div>
               </div>
               <div class="col-lg-5">
@@ -1973,8 +1973,7 @@
                 </div>
               </div>
               <div class="col-lg-6 detail">
-                <h3>Our streamlined process ensures your digital growth is seamless and effective. ipsum dolor sit amet,
-                  consectetur adipiscing elit. In ex ligula, varius at rutrum et, finibus sed felis.</h3>
+                <h3>Our streamlined process ensures your AI integration is seamless and ROI-driven. We move from concept to deployment with precision and speed.</h3>
                 <div class="in-bl" style="margin-top: 11px;">
                   <p>Get Started Now</p>
                 </div>
@@ -1994,8 +1993,8 @@
                     <p>01</p>
                   </div>
                 </div>
-                <h1>Discovery and Consult</h1>
-                <h5>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</h5>
+                <h1>Discovery and AI Audit</h1>
+                <h5>We analyze your current data ecosystem to identify prime opportunities for AI integration.</h5>
               </div>
               <div class="col-lg-3 pb13">
                 <div class="row">
@@ -2007,8 +2006,8 @@
                     <p>02</p>
                   </div>
                 </div>
-                <h1>Strategy and Planning</h1>
-                <h5>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</h5>
+                <h1>Model Strategy</h1>
+                <h5>Our architects design the optimal machine learning roadmap aligned with your business KPIs.</h5>
               </div>
               <div class="col-lg-3 pb13">
                 <div class="row">
@@ -2020,8 +2019,8 @@
                     <p>03</p>
                   </div>
                 </div>
-                <h1>Execution and Optimize</h1>
-                <h5>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</h5>
+                <h1>Deployment and Scaling</h1>
+                <h5>We deploy robust AI solutions and continuously monitor for drift and performance optimization.</h5>
               </div>
               <div class="col-lg-3 pb13">
                 <div class="row">
@@ -2033,8 +2032,8 @@
                     <p>04</p>
                   </div>
                 </div>
-                <h1>Result and Growth</h1>
-                <h5>Lorem ipsum dol consectetur adipiscing elit ut elit tell luctus nec ullamcorper mattis</h5>
+                <h1>Insight and Growth</h1>
+                <h5>Actionable intelligence and automated efficiencies that drive your bottom line upward.</h5>
               </div>
             </div>
           </div>
@@ -2302,9 +2301,9 @@
             <div class="row sec2 mt70">
               <div class="col-lg-12">
                 <div class="sec2-container">
-                  <h1 class="text-center">Stay Ahead In Digital Marketing</h1>
+                  <h1 class="text-center">Stay Ahead in the AI Revolution</h1>
                   <h3 class="text-center" style="font-size:21px;margin-top:44px;">
-                    Get exclusive insights, trends, and strategies delivered straight to your inbox. Subscribe now!
+                    Get exclusive AI insights, LLM trends, and automation strategies delivered to your inbox.
                   </h3>
 
                   <div class="input-container">
