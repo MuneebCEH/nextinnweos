@@ -19,19 +19,34 @@
             <div class="collapse navbar-collapse" id="mainNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                  <a class="nav-link dropdown-toggle" href="services.php" role="button" data-bs-toggle="dropdown">
                     Services
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Web Design</a></li>
-                    <li><a class="dropdown-item" href="#">Development</a></li>
-                    <li><a class="dropdown-item" href="#">SEO</a></li>
+                    <li><a class="dropdown-item" href="ai-development.php">AI Development Services</a></li>
+                    <li><a class="dropdown-item" href="predictive-modelling.php">Predictive Modelling</a></li>
+                    <li><a class="dropdown-item" href="chat-gpt-integration.php">Chat GPT Integrations</a></li>
+                    <li><a class="dropdown-item" href="natural-language-processing.php">Natural Language Processing</a>
+                    </li>
+                    <li><a class="dropdown-item" href="machine-learning.php">Machine Learning</a></li>
+                    <li><a class="dropdown-item" href="computer-vision.php">Computer Vision</a></li>
+                    <li><a class="dropdown-item" href="staff-augmentation.php">Staff Augmentation</a></li>
+                    <li><a class="dropdown-item" href="ai-chatbot-development.php">AI Chatbot Development</a></li>
+                    <li><a class="dropdown-item" href="mobile-app-development.php">Mobile App Development</a></li>
+                    <li><a class="dropdown-item" href="custom-software.php">Custom Software</a></li>
+                    <li><a class="dropdown-item" href="digital-marketing.php">Digital Marketing</a></li>
+                    <li><a class="dropdown-item" href="devops.php">DevOps</a></li>
+                    <li><a class="dropdown-item" href="custom-web-development.php">Custom Web Development</a></li>
+                    <li><a class="dropdown-item" href="ui-ux-design.php">UI UX Design</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
@@ -55,7 +70,7 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="contact-us.php">Contact Us</a>
                 </li>
               </ul>
             </div>

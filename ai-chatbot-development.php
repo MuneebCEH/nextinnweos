@@ -435,6 +435,7 @@
         color: var(--clr3);
         font-size: 41px;
       }
+
       @media screen and (max-width: 575px) {
         .detail-page-sec1 {
           margin-top: 968px;
@@ -504,7 +505,7 @@
                   <h5>As the Chatbot market grows, more businesses are realizing the benefits of using chatbots. The
                     ease of automation and AI-powered customer service solutions has led to a surge in chatbot use
                     across industries. Businesses are integrating AI chatbot solutions into their operations to enhance
-                    overall efficiency. Sharp Tech IT Solutions is dedicated to revolutionizing customer interactions
+                    overall efficiency. Nextinn is dedicated to revolutionizing customer interactions
                     with chatbot development services.</h5>
                   <h5>Whether in e-commerce or customer service, our chatbots automate tasks, offer real-time support,
                     and create personalized experiences. Maintain a competitive edge in the digital landscape with our
@@ -530,7 +531,7 @@
           <div class="row">
 
             <div class="col-lg-12">
-              <h2>Customized AI Chatbot Development Services Offered by Sharp Tech IT Solutions</h2>
+              <h2>Customized AI Chatbot Development Services Offered by Nextinn</h2>
             </div>
 
             <div class="col-lg-4">

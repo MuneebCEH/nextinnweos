@@ -505,14 +505,16 @@
                   Enhance user experiences with our ChatGPT Integration Services. Use advanced NLP and ML to create more
                   intuitive and personalized customer interactions.
                 </h3>
-                <div class="view-details-d">
-                  <div class="text-d">
-                    <span>View Details</span>
+                <a href="chat-gpt-integration.php">
+                  <div class="view-details-d">
+                    <div class="text-d">
+                      <span>View Details</span>
+                    </div>
+                    <div class="icon-d">
+                      <i class="fas fa-arrow-right"></i>
+                    </div>
                   </div>
-                  <div class="icon-d">
-                    <i class="fas fa-arrow-right"></i>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
             <div class="col-lg-4">
@@ -551,7 +553,7 @@
                   <h1>Predictive Modeling</h1>
                 </div>
                 <h3>
-                  At Sharp Tech I T Solution, we offer innovative Predictive Modeling Services for your business. Our
+                  At Nextinn, we offer innovative Predictive Modeling Services for your business. Our
                   Predictive Modeling services help you to make better decisions, anticipate market trends, identify
                   potential risks and opportunities, and remain agile.
                 </h3>
@@ -576,7 +578,7 @@
                   <h1>Custom Software Development</h1>
                 </div>
                 <h3>
-                  With over 10 years of experience, Sharp Tech I T Solution is a reliable custom software development
+                  With over 10 years of experience, Nextinn is a reliable custom software development
                   company that transforms your unique ideas into reality. Our Custom Software Development Services will
                   give you a competitive edge in your industry.
                 </h3>
@@ -627,7 +629,7 @@
                   <h1>AI Development Services</h1>
                 </div>
                 <h3>
-                  At Sharp Tech I T Solution, we combine innovation with intelligence. Our expert team uses the latest
+                  At Nextinn, we combine innovation with intelligence. Our expert team uses the latest
                   technologies to create custom AI solutions that fit your specific needs, transforming your operations.
                 </h3>
                 <div class="view-details-d">
@@ -651,7 +653,7 @@
                   <h1>Mobile App Development</h1>
                 </div>
                 <h3>
-                  Sharp Tech IT Solution., a top-tier mobile app development company, delivers cutting-edge custom
+                  Nextinn., a top-tier mobile app development company, delivers cutting-edge custom
                   solutions. We help ambitious businesses to build scalable, user-focused apps that succeed.
                 </h3>
                 <div class="view-details-d">
