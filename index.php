@@ -901,11 +901,11 @@
 
                 <div
                   style="background-image:url('images/bg-img-3.png');background-size: cover; background-position: center; height:100%;border-radius:22px;max-height:639px;position:relative;">
-                  <div class="boxes" style="    max-width: 297px;
+                  <div class="boxes" style="max-width: 297px;
     position: absolute;
-    bottom: -19px;
-    right: 0;
-    box-shadow: -15px 17px black, -15px -14px black, 23px -15px black;">
+    bottom: 20px;
+    right: 20px;
+    box-shadow: 0 10px 30px rgba(200, 42, 239, 0.3);">
                     <h2 style="font-size: 28px;">Partner with NextInn and take your brand to the next level</h2>
                     <div class="in-bl">
                       <p>Read More</p>
@@ -924,8 +924,8 @@
     <!-- Section 5 -->
 
     <!-- Section 6: Cyber-Neon Global Core -->
-    <div class="row h-sec6 mt120"
-      style="position: relative; overflow: hidden; background: #000; border-radius: 20px; min-height: 1200px; box-shadow: 0 0 120px rgba(255, 0, 255, 0.25); margin-bottom: 80px;">
+    <div class="row h-sec6"
+      style="position: relative; overflow: hidden; background: #000; border-radius: 20px; min-height: 1200px; box-shadow: 0 0 120px rgba(255, 0, 255, 0.25); margin-bottom: 80px; margin-top: 200px;">
       <div id="earth-canvas-container" style="width: 100%; height: 1200px; cursor: crosshair;"></div>
 
       <!-- Overlay Title -->
@@ -1973,7 +1973,8 @@
                 </div>
               </div>
               <div class="col-lg-6 detail">
-                <h3>Our streamlined process ensures your AI integration is seamless and ROI-driven. We move from concept to deployment with precision and speed.</h3>
+                <h3>Our streamlined process ensures your AI integration is seamless and ROI-driven. We move from concept
+                  to deployment with precision and speed.</h3>
                 <div class="in-bl" style="margin-top: 11px;">
                   <p>Get Started Now</p>
                 </div>
