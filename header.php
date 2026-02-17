@@ -84,7 +84,7 @@
               <i class="fas fa-phone-volume"></i>
             </div>
             <div class="number-d">
-              <span style="">+1 (12) 345 7890</span>
+              <span style="">(409) 404-0823</span>
             </div>
           </div>
         </div>
