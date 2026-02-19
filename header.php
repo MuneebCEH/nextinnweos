@@ -1,13 +1,72 @@
+<style>
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .h-sec2 h1.margin-top,
+  .detail-page-sec1 {
+    margin-top: 110px !important;
+  }
+
+  .header .d1 {
+    margin-top: 15px !important;
+    padding: 5px 0 !important;
+  }
+
+  /* Mobile Header Adjustments */
+  @media screen and (max-width: 991px) {
+
+    .h-sec2 h1.margin-top,
+    .detail-page-sec1 {
+      margin-top: 150px !important;
+    }
+
+    .header .logo-container {
+      text-align: left;
+    }
+
+    .header .logo {
+      max-width: 220px !important;
+    }
+
+    .collapse-container {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+      padding-right: 0;
+    }
+
+    .header .d1 .row>[class*="col-"] {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .navbar-toggler {
+      border-color: rgba(200, 42, 239, 0.5) !important;
+      padding: 6px !important;
+      margin-top: 15px;
+    }
+
+    .navbar-collapse {
+      background: #0e0e0e;
+      padding: 20px;
+      border-radius: 15px;
+      margin-top: 15px;
+      border: 1px solid rgba(200, 42, 239, 0.2);
+    }
+  }
+</style>
 <div class="row header">
   <div class="col-lg-12 d1">
     <div class="row">
-      <div class="col-lg-2"></div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 d-none d-lg-block"></div>
+      <div class="col-8 col-lg-2">
         <div class="logo-container">
           <img class="img-responsive logo" src="images/logo.png" style="max-width: 138px;">
         </div>
       </div>
-      <div class="col-lg-6">
+      <div class="col-4 col-lg-6">
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: transparent !important;">
           <div class="container">
@@ -77,7 +136,7 @@
           </div>
         </nav>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-2 d-none d-lg-block">
         <div class="contact-d-container">
           <div class="contact-d">
             <div class="phone-d">

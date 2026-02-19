@@ -65,6 +65,48 @@
   .mt32 {
     margin-top: 32px !important;
   }
+
+  @media screen and (max-width: 991px) {
+    .footer {
+      text-align: center;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    .footer .col-lg-3 {
+      margin-bottom: 40px;
+    }
+
+    .footer h3 {
+      text-align: center;
+      max-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer ul {
+      display: inline-block;
+      text-align: left;
+    }
+
+    .footer .links-container {
+      text-align: center;
+    }
+
+    .footer .icons {
+      justify-content: center;
+      display: flex;
+    }
+
+    .footer .row.mt70 {
+      margin-top: 30px !important;
+    }
+
+    .footer div[class*="col-lg-3"] h4 {
+      text-align: center;
+      margin-top: 10px;
+    }
+  }
 </style>
 <!-- Footer -->
 <div class="row footer mt70">
@@ -131,30 +173,29 @@
           </div>
         </div>
       </div>
-      <div class="row mt70">
+      <div class="row mt70 d-none d-lg-block">
         <div class="col-lg-12"></div>
       </div>
       <div class="row">
         <div class="col-lg-10">
           <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-12">
               <h4>© 2025 Nextinn. Creation All Rights Reserved.</h4>
             </div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3"></div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 d-none d-lg-block"></div>
+            <div class="col-lg-3 d-none d-lg-block"></div>
+            <div class="col-lg-3 col-md-12">
               <div class="row">
-                <div class="col-lg-6">
+                <div class="col-6 col-md-6">
                   <h4>Terms of Service</h4>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-6 col-md-6">
                   <h4>Privacy Policy</h4>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
 
     </div>

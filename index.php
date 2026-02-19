@@ -21,8 +21,17 @@
 
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
   <style>
+    html,
+    body {
+      overflow-x: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
     * {
       font-family: 'Plus Jakarta Sans', sans-serif;
+      box-sizing: border-box;
     }
 
     :root {
@@ -46,7 +55,6 @@
 
     body {
       background-color: black;
-      /* padding-top: 100px; */
     }
 
     /* Utility Classes */
@@ -111,7 +119,8 @@
     .header .d1 {
       background-color: transparent;
       margin-left: 14px;
-      margin-top: 10px;
+      margin-top: 25px;
+      padding: 10px 0;
       max-width: 98%;
       transition: all 0.3s ease;
       border-radius: 20px;
@@ -126,6 +135,7 @@
       background-color: #0e0e0e;
       margin-top: 0;
       margin-left: 0;
+      padding: 10px 0;
       max-width: 100%;
       border-radius: 0;
     }
@@ -284,9 +294,158 @@
       }
     }
 
+    /* Globe Styling */
+    .h-sec6,
+    #earth-canvas-container {
+      height: 1200px;
+    }
+
+    .globe-title {
+      font-size: 6rem;
+      letter-spacing: 30px;
+    }
+
+    .globe-subtitle {
+      font-size: 1.8rem;
+      letter-spacing: 18px;
+    }
+
+    @media screen and (max-width: 1399px) {
+
+      /* Laptop/Small Desktop */
+      .h-sec2 h1 {
+        font-size: 70px;
+      }
+
+      .globe-title {
+        font-size: 5rem;
+        letter-spacing: 20px;
+      }
+    }
+
+    @media screen and (max-width: 1199px) {
+
+      /* Tablet Landscape */
+      .h-sec2 h1 {
+        font-size: 60px;
+      }
+
+      .globe-title {
+        font-size: 4rem;
+        letter-spacing: 15px;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+
+      /* Tablet Portrait */
+      .h-sec2 h1 {
+        font-size: 50px;
+        max-width: 100%;
+        text-align: center;
+      }
+
+      .h-sec2 .p1,
+      .h-sec2 .p2 {
+        max-width: 100%;
+        text-align: center;
+        margin: 20px auto !important;
+      }
+
+      .h-sec3 .detail h1,
+      .h-sec5 .detail h1 {
+        font-size: 38px;
+        text-align: center;
+      }
+
+      .h-sec6,
+      #earth-canvas-container {
+        height: 800px;
+      }
+
+      .globe-title {
+        font-size: 3rem;
+        letter-spacing: 10px;
+      }
+
+      .globe-subtitle {
+        font-size: 1.2rem;
+        letter-spacing: 8px;
+      }
+
+      .h-sec3 .d1,
+      .h-sec5 .detail {
+        margin: 20px 0 !important;
+      }
+
+      .h-sec4 .main-headings {
+        font-size: 32px;
+        text-align: center;
+      }
+
+      .h-sec12 h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+
+      .h-sec13 .detail h1 {
+        font-size: 32px;
+        text-align: center;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+
+      /* Mobile Large */
+      .h-sec2 h1 {
+        font-size: 36px;
+      }
+
+      .h-sec6,
+      #earth-canvas-container {
+        height: 600px;
+      }
+
+      .globe-title {
+        font-size: 2rem;
+        letter-spacing: 5px;
+      }
+
+      .globe-subtitle {
+        font-size: 0.8rem;
+        letter-spacing: 5px;
+      }
+
+      /* Fix Partner box inside image */
+      .h-sec5 .detail {
+        padding: 0 !important;
+      }
+
+      .h-sec5 .detail div[style*="background-image"] {
+        min-height: 400px !important;
+      }
+
+      /* Stack items in Sections */
+      .row>[class*="col-"] {
+        margin-bottom: 20px;
+      }
+    }
+
     @media screen and (max-width: 575px) {
+
+      /* Mobile Small */
+      .h-sec2 h1 {
+        font-size: 32px;
+        line-height: 1.1;
+      }
+
+      .h-sec6,
+      #earth-canvas-container {
+        height: 450px;
+      }
+
       .header .logo-container {
-        max-width: 144px;
+        max-width: 130px;
         margin: auto;
       }
 
@@ -300,11 +459,56 @@
       }
 
       .header .contact-d-container {
-        max-width: 203px;
-        margin: auto;
+        display: none;
+        /* Hide phone on very small mobile to save space if needed, or keep it */
       }
 
       .text-center-m {
+        text-align: center;
+      }
+
+      .mt70 {
+        margin-top: 40px;
+      }
+
+      /* Fix overlapping boxes in expertise section */
+      .h-sec3 .d1 .d1-in1 {
+        margin-left: 0 !important;
+        max-width: 100% !important;
+        display: block !important;
+        text-align: center;
+        box-shadow: -2px -2px 6px var(--clr3) !important;
+      }
+
+      .h-sec3 .d1 div[style*="margin-left: -13px"],
+      .years-of-experience-d {
+        margin-left: 0 !important;
+        text-align: center;
+        padding: 30px 15px !important;
+      }
+
+      .years-of-experience-d h2 {
+        font-size: 40px !important;
+      }
+
+      .h-sec3 .d1 {
+        min-height: 300px !important;
+      }
+
+      .h-sec5 .detail .boxes[style*="position: absolute"] {
+        position: relative !important;
+        bottom: 0 !important;
+        right: 0 !important;
+        margin: 20px auto !important;
+        max-width: 100% !important;
+        background: rgba(0, 0, 0, 0.8) !important;
+      }
+
+      .footer h1 {
+        text-align: center;
+      }
+
+      .footer .icons {
         text-align: center;
       }
     }
@@ -342,14 +546,14 @@
 
 
     <div class="row h-sc2">
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
       <div class="col-lg-10 h-sec2 p-b-70">
         <h1 class="text-center-m margin-top">Amplify Your Growth with</h1>
         <h1 class="text-center-m">Next-Gen AI & Digital </h1>
         <h1 class="text-center-m">Solutions</h1>
 
         <div class="row">
-          <div class="col-lg-4"></div>
+          <div class="col-lg-4 d-none d-lg-block"></div>
           <div class="col-lg-8">
             <p class="p1 mmt70">Nextinn empowers businesses to lead the future with data-driven AI innovation, smart
               automation, and high-performance strategies tailored for excellence in the digital era.
@@ -556,7 +760,7 @@
     </style>
     <!-- Section 3 -->
     <div class="row h-sec3 mt70 mmt140">
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
       <div class="col-lg-10">
         <div class="row">
           <div class="col-lg-4 d1">
@@ -653,7 +857,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
     </div>
     <!-- Section 3 -->
 
@@ -698,7 +902,7 @@
 
     <!-- Section 4 -->
     <div class="row h-sec4 mt70">
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
       <div class="col-lg-10">
         <div class="row">
           <div class="col-lg-10" style="background: linear-gradient(to bottom right, var(--clr8), black);padding: 26px 10px;
@@ -713,26 +917,24 @@
                   Nextinn partner with global leaders to deliver scalable AI architectures that redefine efficiency.</p>
               </div>
             </div>
-            <div class="row buttons-r">
-              <div class="col-lg-1"></div>
-              <div class="col-lg-1"></div>
-              <div class="col-lg-2">
-                <div class="buttons">
+            <div class="row buttons-r justify-content-center">
+              <div class="col-6 col-lg-2 mb-3">
+                <div class="buttons w-100 text-center">
                   <h2>crevo</h2>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="buttons">
+              <div class="col-6 col-lg-2 mb-3">
+                <div class="buttons w-100 text-center">
                   <h2>Brande</h2>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="buttons">
+              <div class="col-6 col-lg-2 mb-3">
+                <div class="buttons w-100 text-center">
                   <h2>bravi</h2>
                 </div>
               </div>
-              <div class="col-lg-2">
-                <div class="buttons">
+              <div class="col-6 col-lg-2 mb-3">
+                <div class="buttons w-100 text-center">
                   <h2>Nexoi</h2>
                 </div>
               </div>
@@ -741,7 +943,7 @@
 
         </div>
       </div>
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
     </div>
     <!-- Section 4 -->
 
@@ -824,7 +1026,7 @@
 
     <!-- Section 5 -->
     <div class="row h-sec5 mt70">
-      <div class="col-lg-2"></div>
+      <div class="col-lg-2 d-none d-lg-block"></div>
       <div class="col-lg-10">
         <div class="row">
           <div class="col-lg-10">
@@ -885,7 +1087,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-6 detail mmt70">
+              <div class="col-lg-6 detail mmt70 d-flex flex-column">
                 <p>
                   <i class="far fa-dot-circle"></i>
                   <span class="in-bl ml5 mmt70">Why Choose Nextinn</span>
@@ -898,14 +1100,13 @@
                   In a world driven by data, the right AI partner is your bridge to the future. At Nextinn, we don't
                   just build models—we engineer intelligent ecosystems that empower your growth.
                 </p>
-
                 <div
-                  style="background-image:url('images/bg-img-3.png');background-size: cover; background-position: center; height:100%;border-radius:22px;max-height:639px;position:relative;">
+                  style="background-image:url('images/bg-img-3.png'); background-size: cover; background-position: center; flex-grow: 1; min-height: 350px; border-radius:22px; position:relative; margin-bottom: 20px;">
                   <div class="boxes" style="max-width: 297px;
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    box-shadow: 0 10px 30px rgba(200, 42, 239, 0.3);">
+                    position: absolute;
+                    bottom: 20px;
+                    right: 20px;
+                    box-shadow: -3px -2px 3px #c82aef;">
                     <h2 style="font-size: 28px;">Partner with NextInn and take your brand to the next level</h2>
                     <div class="in-bl">
                       <p>Read More</p>
@@ -925,16 +1126,15 @@
 
     <!-- Section 6: Cyber-Neon Global Core -->
     <div class="row h-sec6"
-      style="position: relative; overflow: hidden; background: #000; border-radius: 20px; min-height: 1200px; box-shadow: 0 0 120px rgba(255, 0, 255, 0.25); margin-bottom: 80px; margin-top: 200px;">
-      <div id="earth-canvas-container" style="width: 100%; height: 1200px; cursor: crosshair;"></div>
+      style="position: relative; overflow: hidden; background: #000; border-radius: 20px; box-shadow: 0 0 120px rgba(255, 0, 255, 0.25); margin-bottom: 80px; margin-top: 200px;">
+      <div id="earth-canvas-container" style="width: 100%; cursor: crosshair;"></div>
 
       <!-- Overlay Title -->
       <div style="position: absolute; top: 8%; width: 100%; pointer-events: none; text-align: center; z-index: 10;">
-        <h1
-          style="color: white; font-size: 6rem; font-weight: 1000; text-transform: uppercase; letter-spacing: 30px; margin-bottom: 0; text-shadow: 0 0 40px #ff00ea, 0 0 80px #00f2ff; opacity: 0.9;">
+        <h1 class="globe-title"
+          style="color: white; font-weight: 1000; text-transform: uppercase; margin-bottom: 0; text-shadow: 0 0 40px #ff00ea, 0 0 80px #00f2ff; opacity: 0.9;">
           GLOBAL AI NETWORK</h1>
-        <p
-          style="color: #00f2ff; font-size: 1.8rem; letter-spacing: 18px; text-transform: uppercase; font-weight: 900; opacity: 0.8;">
+        <p class="globe-subtitle" style="color: #00f2ff; text-transform: uppercase; font-weight: 900; opacity: 0.8;">
           Artificial Global Consciousness</p>
       </div>
     </div>
@@ -1068,6 +1268,12 @@
         camera.position.y = 1;
         let targetZoom = 14;
         let mX = 0, mY = 0, tRX = 0, tRY = 0;
+
+        window.addEventListener('resize', () => {
+          camera.aspect = container.clientWidth / container.clientHeight;
+          camera.updateProjectionMatrix();
+          renderer.setSize(container.clientWidth, container.clientHeight);
+        });
 
         container.addEventListener('mousemove', (e) => {
           const rect = container.getBoundingClientRect();
@@ -2481,7 +2687,13 @@
 
       @media screen and (max-width: 575px) {
         .h-sec13 .results .per-imgs-d {
-          margin-left: 122px;
+          margin-left: 0;
+          text-align: center;
+          display: block !important;
+        }
+
+        .h-sec13 .heading-container h1 {
+          font-size: 24px;
         }
       }
 
@@ -2504,7 +2716,7 @@
     background-color: #1F1F1F;">
                   <div class="row">
                     <div class="col-lg-7">
-                      <div class="in-bl p-r per-imgs-d">
+                      <div class="in-bl p-r per-imgs-d text-center-m w-100">
                         <img class="img-responsive person-images" src="images/person1.png">
                         <img class="img-responsive person-images margin-left-minus-9" src="images/person2.png">
                         <img class="img-responsive person-images margin-left-minus-9" src="images/person3.png">
